@@ -1,0 +1,4 @@
+{
+    "phpserver.phpConfigPath": "/etc/php/7.4/cli/php.ini",
+    "php.validate.executablePath": "/usr/bin/php"
+}
