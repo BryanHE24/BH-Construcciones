@@ -1,5 +1,7 @@
 // este codigo hace que la barra de busqueda se esconda al hacer scroll
 
+const { default: gsap } = require("gsap/all");
+
 let ubicacionPrincipal = window.pageYOffset; //0
 
 
@@ -17,3 +19,12 @@ window.addEventListener("scroll", function(){
     ubicacionPrincipal= desplazamientoActual; // al subir, vuelve a mostrar la barra de navegacion
 
 })
+
+
+const typed = new Typed('.typed', {
+    Strings: [
+        '<i>Bryan Herrera Vasquez</i>', 
+        '<i>Construccciones</i>'
+    ]
+
+});
